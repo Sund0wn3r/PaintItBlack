@@ -16,8 +16,8 @@ public:
     SOCKET* get_sock();
 
 private:
-    std::string port = "1337";
-    std::string ip = "192.168.178.26";
+    std::string port = "13381";
+    std::string ip = "127.8.8.1";
     SOCKET ConnectSocket = INVALID_SOCKET;
 };
 }

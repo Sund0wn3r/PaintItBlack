@@ -5,6 +5,10 @@
 constexpr auto VERIFY_ADDR = 0x00D4EB98;
 constexpr auto VERIFY_STR = "D:\\Source\\Korea\\RO_2018-06-21\\RagnarokClient\\Release Sakray\\RagexeRE.pdb";
 
+#elif CLIENT_VER == 20190116
+constexpr auto VERIFY_ADDR = 0x00CAE9B0;
+constexpr auto VERIFY_STR = "D:\\Source\\Korea\\RO_2019-01-16\\RagnarokClient\\Release\\Ragexe.pdb";
+
 #elif CLIENT_VER == 20180919
 constexpr auto VERIFY_ADDR = 0x00C917F0;
 constexpr auto VERIFY_STR = "D:\\Source\\Korea\\RO_2018-09-19\\RagnarokClient\\Release\\Ragexe.pdb";

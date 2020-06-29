@@ -139,6 +139,8 @@ void norm::start()
     // Search for: 12000
 #if CLIENT_VER == 20180919
     LPVOID hex_code = (LPVOID)0x0094BADE;
+#elif CLIENT_VER == 20190116
+    LPVOID hex_code = (LPVOID)0x0095ADEE;
 #elif (CLIENT_VER == 20180621 || CLIENT_VER == 20180620)
     LPVOID hex_code = (LPVOID)0x0094AB1E;
 #elif CLIENT_VER == 20150000

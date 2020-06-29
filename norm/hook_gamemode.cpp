@@ -17,6 +17,9 @@ long long init_time = 0;
 #if CLIENT_VER == 20150000
 DWORD CGameMode__Initialize_func = 0x00860160;
 
+#elif CLIENT_VER == 20190116
+DWORD CGameMode__Initialize_func = 0x00946240;
+
 #elif CLIENT_VER == 20180919
 DWORD CGameMode__Initialize_func = 0x00937130;
 
@@ -39,6 +42,9 @@ void __fastcall CGameMode__Initialize_hook(void* this_obj, DWORD EDX)
 // Search for: valkyrie.rsw
 #if CLIENT_VER == 20150000
 DWORD CGameMode__OnInit_func = 0x00866880;
+
+#elif CLIENT_VER == 20190116
+DWORD CGameMode__OnInit_func = 0x0094D1F0;
 
 #elif CLIENT_VER == 20180919
 DWORD CGameMode__OnInit_func = 0x0093E0D0;

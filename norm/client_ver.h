@@ -4,7 +4,7 @@
 
 #if not CI /* avoid having to uncomment below defines on each push */
 //#define CLIENT_VER 20180620 /* needs to fit the client date of the exe. */
-#define CLIENT_VER_RE 20180621
+#define CLIENT_VER 20190116
 #define DEBUG /* requires a debug-server listening on localhost:1337 */
 #endif
 
@@ -21,6 +21,10 @@
 #if CLIENT_VER == 20180919
 #define DLL_VER "RO_2018-09-19Ragexe"
 #include "20180919.h"
+
+#elif CLIENT_VER == 20190116
+#define DLL_VER "RO_2019-01-16Ragexe"
+#include "20190116.h"
 
 #elif CLIENT_VER == 20180621
 #define DLL_VER "RO_2018-06-21Ragexe"
